@@ -1,4 +1,4 @@
-# UserLocationProject
+#Flaskapp
 This project will post the data into csv files users.csv and locations.csv. Before it is posting it will verify that data is present or not. If data is already existing It will raise an error(If same data already present It will allow but while doing changes it wont allow multiple updations)
 Please follow below steps to run this application
 Pre-requesites: Machine should contain docker and should be enabled.

@@ -2,7 +2,7 @@
 This project will post the data into csv files users.csv and locations.csv. Before it is posting it will verify that data is present or not. If data is already existing It will raise an error(If same data already present It will allow but while doing changes it wont allow multiple updations)
 Please follow below steps to run this application
 Pre-requesites: Machine should contain docker and should be enabled.
-Please paste flask_app inside your machine ex: /home/praveen/flask_app
+Please create a flask_app folder and place the files list given[Dockerfile,requirements.txt,users.csv,locations.csv,test_user_location.py,flask_api.py] inside your machine ex: /home/praveen/flask_app
 Now go to inside flask_app(Please go via terminal). Now you can see a Dockerfile and users.csv and location.csv and test_users_locations.py,requirements.txt files
 Now please run this docker command :   **sudo docker build -t <flask_app> . (you can give the name you want, . is mandatory. please copy properly)**
 The above step will build a docker image. Now your flask server is dockerised and it is available to take requests.
